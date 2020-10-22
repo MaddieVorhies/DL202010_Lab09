@@ -69,12 +69,7 @@
 
 \section*{Summary}
 
-Type the summary of your experiment and results here.  
-
-
-\section*{Q\&A}
-
-Answer questions posed in the lab assignment here.
+ In this lab, the goal was to create an Arithmetic Logic Unit (ALU) that is capable of executing a few operations similar to a calculator. The operations that this ALU will be able to calculate are addition, subtraction, AND gates, OR gates, and XOR gates. To begin this lab I created a module known as register. The register stores a number so it can be used to execute the given operation. Then I created a test bench to make sure that my register outputs the correct number. Then I created the ALU. The ALU is a combinational circuit, which means it's constantly performing the specified calculation and producing an output. The ALU allows me to perform addition, subtraction, AND gates, OR gates, and XOR gates. Again, I created another test bench to make sure the ALU was working properly. To put these two modules together, I created a toplab module. I then programmed my board and tested out the given operations in the lab. All of my results were successful. 
 
 
 \section*{Results}
@@ -92,7 +87,7 @@ Answer questions posed in the lab assignment here.
 		en  	& 0 & 0 	  & 1 & 1 & 1$\to$0 & 0$\to$1 & 1$\to$0 & 0 & 0$\to$1 & 1 & 1 \\
 		rst 	& 0 & 0$\to$1 & 0 & 0 & 0 		& 0 	  & 0		& 0 & 0		  & 0 & 0 \\
 		\midrule
-		Q (hex) & X & X$\to$0 & ?... &  &  &  & & & & & \\
+		Q (hex) & X & X$\to$0 & 0 & A & A & A & A & A & A & 6 & 6\\
 		\bottomrule
 	\end{tabular}
 \end{table*}
