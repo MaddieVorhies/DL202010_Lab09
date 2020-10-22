@@ -1,0 +1,339 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 22 12:43:54 2020
+# Process ID: 4388
+# Current directory: H:/DL202010_Lab09/Lab09/Lab09.runs/synth_1
+# Command line: vivado.exe -log top_lab9.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_lab9.tcl
+# Log file: H:/DL202010_Lab09/Lab09/Lab09.runs/synth_1/top_lab9.vds
+# Journal file: H:/DL202010_Lab09/Lab09/Lab09.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_lab9.tcl -notrace
+Command: synth_design -top top_lab9 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13228
+WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:31]
+WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:35]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1025.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_lab9' [H:/DL202010_Lab09/Lab09/systemverilog/top_lab9.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'register' [H:/DL202010_Lab09/Lab09/systemverilog/register.sv:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register' (1#1) [H:/DL202010_Lab09/Lab09/systemverilog/register.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:23]
+	Parameter N bound to: 8 - type: integer 
+	Parameter ADD bound to: 0 - type: integer 
+	Parameter SUB bound to: 1 - type: integer 
+	Parameter AND bound to: 2 - type: integer 
+	Parameter OR bound to: 3 - type: integer 
+	Parameter XOR bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (2#1) [H:/DL202010_Lab09/Lab09/systemverilog/alu.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_lab9' (3#1) [H:/DL202010_Lab09/Lab09/systemverilog/top_lab9.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1025.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1025.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1025.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1025.324 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [H:/DL202010_Lab07/Lab07/Basys3_Lab07.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_lab9_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_lab9_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1026.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1026.027 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.027 ; gain = 0.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.027 ; gain = 0.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.027 ; gain = 0.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1026.027 ; gain = 0.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 2     
+	   6 Input    8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1026.027 ; gain = 0.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1026.090 ; gain = 0.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1046.176 ; gain = 20.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1047.090 ; gain = 21.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT1   |     1|
+|4     |LUT3   |    15|
+|5     |LUT6   |     8|
+|6     |FDCE   |    16|
+|7     |IBUF   |    16|
+|8     |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 1053.879 ; gain = 27.852
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.879 ; gain = 28.555
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1064.938 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1067.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 41 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1067.027 ; gain = 41.703
+INFO: [Common 17-1381] The checkpoint 'H:/DL202010_Lab09/Lab09/Lab09.runs/synth_1/top_lab9.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_lab9_utilization_synth.rpt -pb top_lab9_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 22 12:44:35 2020...

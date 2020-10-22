@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../systemverilog/alu.sv" \
+"../../../../systemverilog/register.sv" \
+"../../../../systemverilog/top_lab9.sv" \
+"../../../../basys3_lab9.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
