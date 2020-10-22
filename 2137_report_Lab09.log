@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.10.7)  22 OCT 2020 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.10.7)  22 OCT 2020 13:34
 entering extended mode
 **./2137_report_Lab09.tex
 (2137_report_Lab09.tex
@@ -267,7 +267,17 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(2137_report_Lab09.aux)
+(2137_report_Lab09.aux
+
+LaTeX Warning: Label `fig:sim_with_table' multiply defined.
+
+
+LaTeX Warning: Label `fig:sim_with_table' multiply defined.
+
+
+LaTeX Warning: Label `fig:sim_with_table' multiply defined.
+
+)
 \openout1 = `2137_report_Lab09.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -383,36 +393,168 @@ File: alu_sim.png Graphic file (type png)
 <use alu_sim.png>
 Package pdftex.def Info: alu_sim.png  used on input line 122.
 (pdftex.def)             Requested size: 469.75502pt x 109.5619pt.
- [1
+<toplevel_sim.png, id=8, 1445.4pt x 871.75688pt>
+File: toplevel_sim.png Graphic file (type png)
+<use toplevel_sim.png>
+Package pdftex.def Info: toplevel_sim.png  used on input line 127.
+(pdftex.def)             Requested size: 469.75502pt x 109.11592pt.
+<step1.jpg, id=10, 4047.12pt x 3035.34pt>
+File: step1.jpg Graphic file (type jpg)
+<use step1.jpg>
+Package pdftex.def Info: step1.jpg  used on input line 133.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+<step2.jpg, id=12, 4047.12pt x 3035.34pt>
+File: step2.jpg Graphic file (type jpg)
+<use step2.jpg>
+Package pdftex.def Info: step2.jpg  used on input line 134.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
 
-{C:/Users/Maddie_Vorhies1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [2 <./register_sim.png> <./alu_sim.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ADD.jpg, id=14, 4047.12pt x 3035.34pt>
+File: ADD.jpg Graphic file (type jpg)
+<use ADD.jpg>
+Package pdftex.def Info: ADD.jpg  used on input line 143.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+<SUB.jpg, id=16, 4047.12pt x 3035.34pt>
+File: SUB.jpg Graphic file (type jpg)
+<use SUB.jpg>
+Package pdftex.def Info: SUB.jpg  used on input line 144.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<AND.jpg, id=18, 4047.12pt x 3035.34pt>
+File: AND.jpg Graphic file (type jpg)
+<use AND.jpg>
+Package pdftex.def Info: AND.jpg  used on input line 153.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+<OR.jpg, id=20, 4047.12pt x 3035.34pt>
+File: OR.jpg Graphic file (type jpg)
+<use OR.jpg>
+Package pdftex.def Info: OR.jpg  used on input line 154.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<XOR.jpg, id=22, 4047.12pt x 3035.34pt>
+File: XOR.jpg Graphic file (type jpg)
+<use XOR.jpg>
+Package pdftex.def Info: XOR.jpg  used on input line 163.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+<default.jpg, id=24, 4047.12pt x 3035.34pt>
+File: default.jpg Graphic file (type jpg)
+<use default.jpg>
+Package pdftex.def Info: default.jpg  used on input line 164.
+(pdftex.def)             Requested size: 234.8775pt x 176.13783pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{C:/Users/Maddie_Vorhies1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [
+2 <./register_sim.png> <./alu_sim.png> <./toplevel_sim.png>] [3 <./step1.jpg> <
+./step2.jpg> <./ADD.jpg> <./SUB.jpg>] [4 <./AND.jpg> <./OR.jpg> <./XOR.jpg> <./
+default.jpg>] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 173.
+
+(Lab09/systemverilog/register.sv
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+) (Lab09/systemverilog/register_test.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+[5
+
+]
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+) (Lab09/systemverilog/alu.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+[6]
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+) (Lab09/systemverilog/alu_test.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+[7]
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+) (Lab09/systemverilog/top_lab9.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+[8]
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+[9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (2137_report_Lab09.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `2137_report_Lab09.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 7501 strings out of 493308
- 109502 string characters out of 3138738
- 212670 words of memory out of 3000000
- 10985 multiletter control sequences out of 15000+200000
- 8542 words of font info for 30 fonts, out of 3000000 for 9000
+ 8207 strings out of 493308
+ 119503 string characters out of 3138738
+ 320361 words of memory out of 3000000
+ 11386 multiletter control sequences out of 15000+200000
+ 8710 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,35p,261b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,14n,52p,261b,1761s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb>
-Output written on 2137_report_Lab09.pdf (2 pages, 224722 bytes).
+public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on 2137_report_Lab09.pdf (10 pages, 17181140 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 273 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

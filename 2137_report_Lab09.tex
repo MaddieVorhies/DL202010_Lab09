@@ -122,10 +122,63 @@ Answer questions posed in the lab assignment here.
 	\includegraphics [width=1\textwidth,trim=640 550 10 135, clip]{alu_sim}
 \end{figure}
 
+\begin{figure}[ht]\centering
+	\caption{Simulation Waveform for basys3lab9 Top Simulation}
+	\includegraphics [width=1\textwidth,trim=640 550 10 135, clip]{toplevel_sim}
+\end{figure}
+
+\begin{table}[h]\centering
+	\begin{tabular}{cc}
+		Display 14 on switches 7-0 & Display 14 on switches 15-8 \\
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{step1} &
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{step2} \\
+	\end{tabular}
+	\caption{Board Pictures}
+	\label{fig:sim_with_table}
+\end{table}
+
+\begin{table}[h]\centering
+	\begin{tabular}{cc}
+		Add 14 adn 7A & Subtract 14 and 7A \\
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{ADD} &
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{SUB} \\
+	\end{tabular}
+	\caption{Board Pictures}
+	\label{fig:sim_with_table}
+\end{table}
+
+\begin{table}[h]\centering
+	\begin{tabular}{cc}
+		AND 14 and 7A & OR 14 and 7A \\
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{AND} &
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{OR} \\
+	\end{tabular}
+	\caption{Board Pictures}
+	\label{fig:sim_with_table}
+\end{table}
+
+\begin{table}[h]\centering
+	\begin{tabular}{cc}
+		XOR 14 and 7A & default for 14 and 7A \\
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{XOR} &
+		\includegraphics [width=0.5\textwidth,trim=0 0 0 0, clip, angle = 270]{default} \\
+	\end{tabular}
+	\caption{Board Pictures}
+	\label{fig:sim_with_table}
+\end{table}
+
 
 \section*{Code}
 
-Include all of the code you wrote or modified here.
+\Verilog{Lab09/systemverilog/register.sv}
+
+\Verilog{Lab09/systemverilog/register_test.sv}
+
+\Verilog{Lab09/systemverilog/alu.sv}
+
+\Verilog{Lab09/systemverilog/alu_test.sv}
+
+\Verilog{Lab09/systemverilog/top_lab9.sv}
 
 
 \end{document}
